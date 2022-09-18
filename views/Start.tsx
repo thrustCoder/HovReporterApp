@@ -60,7 +60,7 @@ export default class Start extends Component {
                         <View style={boundingLayout.topImageArea}>
                             <Image 
                                 style={contentItems.startMainImage} 
-                                source={require('../assets/hov-sign.png')} 
+                                source={require('../assets/app-icon.png')} 
                             />
                         </View>
                         <View style={boundingLayout.mainArea}>
