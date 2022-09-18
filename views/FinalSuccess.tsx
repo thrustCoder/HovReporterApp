@@ -8,7 +8,6 @@ import contentItems from '../styles/ContentItems';
 
 export default class FinalSuccess extends Component {
     clearAllStateFn() {
-        this.props.clearAllState();
         this.props.navigation.popToTop();
     }
 

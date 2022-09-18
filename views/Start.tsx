@@ -38,7 +38,7 @@ export default class Start extends Component {
                         },
                     })
                     .then((responseJson) => {
-                        console.log(responseJson);
+                        console.log(JSON.stringify(responseJson));
                     })
                     .catch((error) => {
                         console.error(error);
@@ -82,13 +82,10 @@ export default class Start extends Component {
                     </View>
                 </View>
                 <View style={boundingLayout.footerVersion}>
-                    <Text style={contentItems.versionText}>
-                        App version:
-                    </Text>
                     <Text 
                         style={contentItems.versionText}
                         data-i9n-redact={true}>
-                        v3.0.9
+                        v4.0.1
                     </Text>
                 </View>
             </View>
