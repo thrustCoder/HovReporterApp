@@ -2,6 +2,8 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import viewNames from './state/ViewNames';
+import FinalSuccess from './views/FinalSuccess';
+import Start from './views/Start';
 
 const Stack = createNativeStackNavigator();
 
