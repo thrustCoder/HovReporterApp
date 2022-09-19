@@ -60,7 +60,7 @@ export default class Start extends Component {
                         <View style={boundingLayout.topImageArea}>
                             <Image 
                                 style={contentItems.startMainImage} 
-                                source={require('../assets/hov-sign.png')} 
+                                source={require('../assets/app-icon.png')} 
                             />
                         </View>
                         <View style={boundingLayout.mainArea}>
@@ -85,7 +85,7 @@ export default class Start extends Component {
                     <Text 
                         style={contentItems.versionText}
                         data-i9n-redact={true}>
-                        v4.0.1
+                        v4.0.2
                     </Text>
                 </View>
             </View>
