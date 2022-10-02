@@ -2,7 +2,7 @@
   "expo": {
     "name": "HovReporterApp",
     "slug": "HovReporterApp",
-    "version": "4.0.2",
+    "version": "4.0.3",
     "orientation": "portrait",
     "icon": "./assets/app-icon.png",
     "userInterfaceStyle": "light",
@@ -19,7 +19,12 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "hovreporter"
+      "bundleIdentifier": "hovreporter",
+      "infoPlist": {
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Your location will be shared to WA State Patrol for finding violation hot spots",
+        "NSLocationWhenInUseUsageDescription": "Your location will be shared to WA State Patrol for finding violation hot spots",
+        "NSLocationAlwaysUsageDescription": "Your location will be shared to WA State Patrol for finding violation hot spots"
+      }
     },
     "android": {
       "adaptiveIcon": {

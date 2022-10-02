@@ -85,7 +85,7 @@ export default class Start extends Component {
                     <Text 
                         style={contentItems.versionText}
                         data-i9n-redact={true}>
-                        v4.0.2
+                        v4.0.3
                     </Text>
                 </View>
             </View>
